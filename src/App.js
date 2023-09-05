@@ -21,6 +21,18 @@ import TextField from './components/TextField';
 import TransferList from './components/TransferList';
 import ToggleButton from './components/ToggleButton';
 import Avatar from './components/Avatar';
+import Badge from './components/Badge';
+import Chip from './components/Chip';
+import Divider from './components/Divider';
+import List from './components/List';
+import Table from './components/Table';
+import Tooltip from './components/Tooltip';
+import Progress from './components/Progress';
+import Skeleton from './components/Skeleton';
+import Accordion from './components/Accordion';
+import Card from './components/Card';
+import DatePicker from './components/DatePicker';
+
 
 function App() {
   return (
@@ -47,6 +59,17 @@ function App() {
         <Route exact path='/transferlists' element={<TransferList/>}/>
         <Route exact path='/togglebuttons' element={<ToggleButton/>}/>
         <Route exact path='/avatars' element={<Avatar/>}/>
+        <Route exact path='/badges' element={<Badge/>}/>
+        <Route exact path='/chips' element={<Chip/>}/>
+        <Route exact path='/dividers' element={<Divider/>}/>
+        <Route exact path='/lists' element={<List/>}/>
+        <Route exact path='/tables' element={<Table/>}/>
+        <Route exact path='/tooltips' element={<Tooltip/>}/>
+        <Route exact path='/progress' element={<Progress/>}/>
+        <Route exact path='/skeletons' element={<Skeleton/>}/>
+        <Route exact path='/accordions' element={<Accordion/>}/>
+        <Route exact path='/cards' element={<Card/>}/>
+        <Route exact path='/datepickers' element={<DatePicker/>}/>
       </Routes>
     
     </div>

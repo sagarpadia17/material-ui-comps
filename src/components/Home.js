@@ -217,123 +217,123 @@ const Home = () => {
           </Link>
         </div>
         <div className="col-lg-4 col-md-6 mt-3">
-          <Link to="/avatars">
+          <Link to="/badges">
             <Button
               variant="contained"
               className="w-100 p-3"
               endIcon={<SendIcon />}
             >
-              Avatars
+              Badges
             </Button>
           </Link>
         </div>
         <div className="col-lg-4 col-md-6 mt-3">
-          <Link to="/avatars">
+          <Link to="/chips">
             <Button
               variant="contained"
               className="w-100 p-3"
               endIcon={<SendIcon />}
             >
-              Avatars
+              Chips
             </Button>
           </Link>
         </div>
         <div className="col-lg-4 col-md-6 mt-3">
-          <Link to="/avatars">
+          <Link to="/dividers">
             <Button
               variant="contained"
               className="w-100 p-3"
               endIcon={<SendIcon />}
             >
-              Avatars
+              Dividers
             </Button>
           </Link>
         </div>
         <div className="col-lg-4 col-md-6 mt-3">
-          <Link to="/avatars">
+          <Link to="/lists">
             <Button
               variant="contained"
               className="w-100 p-3"
               endIcon={<SendIcon />}
             >
-              Avatars
+              Lists
             </Button>
           </Link>
         </div>
         <div className="col-lg-4 col-md-6 mt-3">
-          <Link to="/avatars">
+          <Link to="/tables">
             <Button
               variant="contained"
               className="w-100 p-3"
               endIcon={<SendIcon />}
             >
-              Avatars
+              Tables
             </Button>
           </Link>
         </div>
         <div className="col-lg-4 col-md-6 mt-3">
-          <Link to="/avatars">
+          <Link to="/tooltips">
             <Button
               variant="contained"
               className="w-100 p-3"
               endIcon={<SendIcon />}
             >
-              Avatars
+              Tooltips
             </Button>
           </Link>
         </div>
         <div className="col-lg-4 col-md-6 mt-3">
-          <Link to="/avatars">
+          <Link to="/progress">
             <Button
               variant="contained"
               className="w-100 p-3"
               endIcon={<SendIcon />}
             >
-              Avatars
+              Progress
             </Button>
           </Link>
         </div>
         <div className="col-lg-4 col-md-6 mt-3">
-          <Link to="/avatars">
+          <Link to="/skeletons">
             <Button
               variant="contained"
               className="w-100 p-3"
               endIcon={<SendIcon />}
             >
-              Avatars
+              Skeletons
             </Button>
           </Link>
         </div>
         <div className="col-lg-4 col-md-6 mt-3">
-          <Link to="/avatars">
+          <Link to="/accordions">
             <Button
               variant="contained"
               className="w-100 p-3"
               endIcon={<SendIcon />}
             >
-              Avatars
+              Accordions
             </Button>
           </Link>
         </div>
         <div className="col-lg-4 col-md-6 mt-3">
-          <Link to="/avatars">
+          <Link to="/cards">
             <Button
               variant="contained"
               className="w-100 p-3"
               endIcon={<SendIcon />}
             >
-              Avatars
+              Cards
             </Button>
           </Link>
         </div>
         <div className="col-lg-4 col-md-6 mt-3">
-          <Link to="/avatars">
+          <Link to="/datepickers">
             <Button
               variant="contained"
               className="w-100 p-3"
               endIcon={<SendIcon />}
             >
-              Avatars
+              DatePickers
             </Button>
           </Link>
         </div>
