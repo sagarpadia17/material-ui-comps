@@ -216,6 +216,127 @@ const Home = () => {
             </Button>
           </Link>
         </div>
+        <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/avatars">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              Avatars
+            </Button>
+          </Link>
+        </div>
+        <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/avatars">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              Avatars
+            </Button>
+          </Link>
+        </div>
+        <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/avatars">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              Avatars
+            </Button>
+          </Link>
+        </div>
+        <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/avatars">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              Avatars
+            </Button>
+          </Link>
+        </div>
+        <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/avatars">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              Avatars
+            </Button>
+          </Link>
+        </div>
+        <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/avatars">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              Avatars
+            </Button>
+          </Link>
+        </div>
+        <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/avatars">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              Avatars
+            </Button>
+          </Link>
+        </div>
+        <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/avatars">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              Avatars
+            </Button>
+          </Link>
+        </div>
+        <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/avatars">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              Avatars
+            </Button>
+          </Link>
+        </div>
+        <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/avatars">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              Avatars
+            </Button>
+          </Link>
+        </div>
+        <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/avatars">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              Avatars
+            </Button>
+          </Link>
+        </div>
         
       </div>
     </div>
