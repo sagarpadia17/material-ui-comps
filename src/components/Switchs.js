@@ -3,7 +3,7 @@ import BasicSwitches from "../maincomponents/switches/BasicSwitches";
 import SwitchLabels from "../maincomponents/switches/SwitchLabels";
 import CustomizedSwitches from "../maincomponents/switches/CustomizedSwitch";
 
-const Switch = () => {
+const Switchs = () => {
   return (
     <div>
       <div className="row px-5 justify-content-center">
@@ -24,4 +24,4 @@ const Switch = () => {
   );
 };
 
-export default Switch;
+export default Switchs;

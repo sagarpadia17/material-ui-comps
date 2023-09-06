@@ -403,6 +403,83 @@ const Home = () => {
             </Button>
           </Link>
         </div>
+        <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/modals">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              Modals
+            </Button>
+          </Link>
+        </div>
+        <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/timepickers">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              TimePickers
+            </Button>
+          </Link>
+        </div>
+        <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/timelines">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              TimeLines
+            </Button>
+          </Link>
+        </div>
+        <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/imagelists">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              ImageLists
+            </Button>
+          </Link>
+        </div>
+        <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/popovers">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              Popovers
+            </Button>
+          </Link>
+        </div>
+        <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/textarea">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              Textarea
+            </Button>
+          </Link>
+        </div>
+        <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/transitions">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              Transitions
+            </Button>
+          </Link>
+        </div>
         
         
       </div>
