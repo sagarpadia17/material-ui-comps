@@ -32,6 +32,12 @@ import Skeleton from './components/Skeleton';
 import Accordion from './components/Accordion';
 import Card from './components/Card';
 import DatePicker from './components/DatePicker';
+import Breadcrumb from './components/Breadcrumb';
+import Drawer from './components/Drawer';
+import Pagination from './components/Pagination';
+import SpeedDial from './components/SpeedDial';
+import Stepper from './components/Stepper';
+import Tabs from './components/Tabs';
 
 
 function App() {
@@ -70,6 +76,12 @@ function App() {
         <Route exact path='/accordions' element={<Accordion/>}/>
         <Route exact path='/cards' element={<Card/>}/>
         <Route exact path='/datepickers' element={<DatePicker/>}/>
+        <Route exact path='/breadcrumbs' element={<Breadcrumb/>}/>
+        <Route exact path='/drawers' element={<Drawer/>}/>
+        <Route exact path='/pagination' element={<Pagination/>}/>
+        <Route exact path='/speeddials' element={<SpeedDial/>}/>
+        <Route exact path='/steppers' element={<Stepper/>}/>
+        <Route exact path='/tabs' element={<Tabs/>}/>
       </Routes>
     
     </div>

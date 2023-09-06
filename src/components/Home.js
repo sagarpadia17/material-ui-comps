@@ -337,6 +337,73 @@ const Home = () => {
             </Button>
           </Link>
         </div>
+        <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/breadcrumbs">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              BreadCrumbs
+            </Button>
+          </Link>
+        </div>
+        <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/drawers">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              Drawers
+            </Button>
+          </Link>
+        </div>
+        <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/pagination">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              Pagination
+            </Button>
+          </Link>
+        </div>
+        <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/speeddials">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              SpeedDials
+            </Button>
+          </Link>
+        </div>
+        <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/steppers">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              Steppers
+            </Button>
+          </Link>
+        </div>
+        <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/tabs">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              Tabs
+            </Button>
+          </Link>
+        </div>
+        
         
       </div>
     </div>
