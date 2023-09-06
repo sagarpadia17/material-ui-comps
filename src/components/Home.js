@@ -6,51 +6,8 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div>
-      <div className="row px-5">
-        <div className="col-lg-4 col-md-6 mt-3">
-          <Link to="/alertbox">
-            <Button
-              variant="contained"
-              className="w-100 p-3"
-              endIcon={<SendIcon />}
-            >
-              AlertBoxes
-            </Button>
-          </Link>
-        </div>
-        <div className="col-lg-4 col-md-6 mt-3">
-          <Link to="/dropdown">
-            <Button
-              variant="contained"
-              className="w-100 p-3"
-              endIcon={<SendIcon />}
-            >
-              Drop Down
-            </Button>
-          </Link>
-        </div>
-        <div className="col-lg-4 col-md-6 mt-3">
-          <Link to="/appbar">
-            <Button
-              variant="contained"
-              className="w-100 p-3"
-              endIcon={<SendIcon />}
-            >
-              App Bars
-            </Button>
-          </Link>
-        </div>
-        <div className="col-lg-4 col-md-6 mt-3">
-          <Link to="/snackbar">
-            <Button
-              variant="contained"
-              className="w-100 p-3"
-              endIcon={<SendIcon />}
-            >
-              Snack Bars
-            </Button>
-          </Link>
-        </div>
+      <h1 className='m-3'>Inputs</h1>
+      <div className="row px-md-5 px-3">
         <div className="col-lg-4 col-md-6 mt-3">
           <Link to="/autocomplete">
             <Button
@@ -59,17 +16,6 @@ const Home = () => {
               endIcon={<SendIcon />}
             >
               AutoComplete
-            </Button>
-          </Link>
-        </div>
-        <div className="col-lg-4 col-md-6 mt-3">
-          <Link to="/bottomnavigation">
-            <Button
-              variant="contained"
-              className="w-100 p-3"
-              endIcon={<SendIcon />}
-            >
-              Bottom Navigation
             </Button>
           </Link>
         </div>
@@ -103,6 +49,17 @@ const Home = () => {
               endIcon={<SendIcon />}
             >
               CheckBox
+            </Button>
+          </Link>
+        </div>
+        <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/dropdown">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              Drop Down
             </Button>
           </Link>
         </div>
@@ -168,7 +125,7 @@ const Home = () => {
               className="w-100 p-3"
               endIcon={<SendIcon />}
             >
-             Switch
+              Switch
             </Button>
           </Link>
         </div>
@@ -205,6 +162,9 @@ const Home = () => {
             </Button>
           </Link>
         </div>
+      </div>
+      <h1 className='m-3'>Data Display</h1>
+      <div className="row px-md-5 px-3">
         <div className="col-lg-4 col-md-6 mt-3">
           <Link to="/avatars">
             <Button
@@ -282,6 +242,21 @@ const Home = () => {
             </Button>
           </Link>
         </div>
+      </div>
+      <h1 className='m-3'>FeedBack</h1>
+      <div className="row px-md-5 px-3">
+        <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/alertbox">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              AlertBoxes
+            </Button>
+          </Link>
+        </div>
+
         <div className="col-lg-4 col-md-6 mt-3">
           <Link to="/progress">
             <Button
@@ -305,6 +280,20 @@ const Home = () => {
           </Link>
         </div>
         <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/snackbar">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              Snack Bars
+            </Button>
+          </Link>
+        </div>
+      </div>
+      <h1 className='m-3'>Surfaces</h1>
+      <div className="row px-md-5 px-3">
+        <div className="col-lg-4 col-md-6 mt-3">
           <Link to="/accordions">
             <Button
               variant="contained"
@@ -312,6 +301,17 @@ const Home = () => {
               endIcon={<SendIcon />}
             >
               Accordions
+            </Button>
+          </Link>
+        </div>
+        <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/appbar">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              App Bars
             </Button>
           </Link>
         </div>
@@ -326,14 +326,17 @@ const Home = () => {
             </Button>
           </Link>
         </div>
+      </div>
+      <h1 className='m-3'>Navigation</h1>
+      <div className="row px-md-5 px-3">
         <div className="col-lg-4 col-md-6 mt-3">
-          <Link to="/datepickers">
+          <Link to="/bottomnavigation">
             <Button
               variant="contained"
               className="w-100 p-3"
               endIcon={<SendIcon />}
             >
-              DatePickers
+              Bottom Navigation
             </Button>
           </Link>
         </div>
@@ -403,36 +406,17 @@ const Home = () => {
             </Button>
           </Link>
         </div>
+      </div>
+      <h1 className='m-3'>Utils</h1>
+      <div className="row px-md-5 px-3">
         <div className="col-lg-4 col-md-6 mt-3">
-          <Link to="/modals">
+          <Link to="/datepickers">
             <Button
               variant="contained"
               className="w-100 p-3"
               endIcon={<SendIcon />}
             >
-              Modals
-            </Button>
-          </Link>
-        </div>
-        <div className="col-lg-4 col-md-6 mt-3">
-          <Link to="/timepickers">
-            <Button
-              variant="contained"
-              className="w-100 p-3"
-              endIcon={<SendIcon />}
-            >
-              TimePickers
-            </Button>
-          </Link>
-        </div>
-        <div className="col-lg-4 col-md-6 mt-3">
-          <Link to="/timelines">
-            <Button
-              variant="contained"
-              className="w-100 p-3"
-              endIcon={<SendIcon />}
-            >
-              TimeLines
+              DatePickers
             </Button>
           </Link>
         </div>
@@ -444,6 +428,17 @@ const Home = () => {
               endIcon={<SendIcon />}
             >
               ImageLists
+            </Button>
+          </Link>
+        </div>
+        <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/modals">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              Modals
             </Button>
           </Link>
         </div>
@@ -470,6 +465,29 @@ const Home = () => {
           </Link>
         </div>
         <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/timelines">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              TimeLines
+            </Button>
+          </Link>
+        </div>
+        <div className="col-lg-4 col-md-6 mt-3">
+          <Link to="/timepickers">
+            <Button
+              variant="contained"
+              className="w-100 p-3"
+              endIcon={<SendIcon />}
+            >
+              TimePickers
+            </Button>
+          </Link>
+        </div>
+        
+        <div className="col-lg-4 col-md-6 mt-3">
           <Link to="/transitions">
             <Button
               variant="contained"
@@ -480,7 +498,7 @@ const Home = () => {
             </Button>
           </Link>
         </div>
-        
+
         
       </div>
     </div>

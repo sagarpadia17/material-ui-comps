@@ -63,10 +63,10 @@ function App() {
       <ThemeProvider theme={darkTheme}>
         <CssBaseline />
         <div className="row align-items-center px-4">
-          <div className="col-md-8 text-start">
+          <div className="col-md-8 text-md-start text-center">
             <h1 className="p-4"> Material 3 UI Components</h1>
           </div>
-          <div className="col-md-4 d-flex align-items-center justify-content-end p-4">
+          <div className="col-md-4 d-flex align-items-center justify-content-md-end justify-content-center p-4">
             <h1>Dark Mode</h1>
             <Switch checked={theme} color="success" onChange={handleChange} />
           </div>
@@ -78,10 +78,7 @@ function App() {
           <Route exact path="/appbar" element={<AppBar />} />
           <Route exact path="/snackbar" element={<SnackBar />} />
           <Route exact path="/autocomplete" element={<AutoComplete />} />
-          <Route
-            exact
-            path="/bottomnavigation"
-            element={<BottomNavigation />}
+          <Route exact path="/bottomnavigation" element={<BottomNavigation />}
           />
           <Route exact path="/buttons" element={<Button />} />
           <Route exact path="/buttongroups" element={<ButtonGroups />} />
